@@ -19,6 +19,12 @@ export default {
         ring: "hsl(var(--ring))",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
+        hero: {
+          gradient: "var(--hero-gradient)",
+        },
+        earth: {
+          gradient: "var(--earth-gradient)",
+        },
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
@@ -62,6 +68,14 @@ export default {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
+      },
+      boxShadow: {
+        soft: "var(--shadow-soft)",
+        strong: "var(--shadow-strong)",
+      },
+      backgroundImage: {
+        "hero-gradient": "var(--hero-gradient)",
+        "earth-gradient": "var(--earth-gradient)",
       },
       keyframes: {
         "accordion-down": {
